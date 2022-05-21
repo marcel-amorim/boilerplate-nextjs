@@ -8,3 +8,4 @@ This is a boilerplate for NextJS projects using the following technologies:
 - Husky
 - Lint Staged
 - Jest
+- React Testing Library
