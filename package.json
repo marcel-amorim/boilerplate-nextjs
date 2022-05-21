@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint --max-warnings=0",
     "prepare": "husky install",
     "postinstall": "husky install"
   },
@@ -33,6 +33,6 @@
     "typescript": "^4.6.4"
   },
   "lint-staged": {
-    "src/**/*": "lint --fix"
+    "src/**/*": "yarn lint --fix"
   }
 }
