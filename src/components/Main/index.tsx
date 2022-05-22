@@ -1,9 +1,5 @@
 import S from './styles'
-
-export interface MainProps {
-  title?: string
-  description?: string
-}
+import { MainProps } from './types'
 
 const Main: React.FC<MainProps> = ({
   title = 'React Avançado',
