@@ -1,6 +1,7 @@
 import { Meta, Story } from '@storybook/react/types-6-0'
 
-import Main, { MainProps } from '.'
+import { MainProps } from './types'
+import Main from '.'
 
 export default {
   title: 'Main',
